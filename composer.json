@@ -26,11 +26,11 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "Title",
+            "title": "BBcode Custom",
             "category": "feature",
             "icon": {
-                "name": "fas fa-",
-                "backgroundColor": "#ddd",
+                "name": "fas fa-dribbble",
+                "backgroundColor": "#a0e5b5",
                 "color": "#000"
             }
         }

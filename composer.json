@@ -1,34 +1,27 @@
 {
-    "name": "username/flarum-ext-name",
-    "description": "A lovely description.",
+    "name": "beautylix/flarum-bbcode-custom",
+    "description": "Custom flarum bbcode.",
     "type": "flarum-extension",
     "keywords": ["discussion", "template"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Billy Wilcosky",
-            "homepage": "https://www.wilcosky.com",
+            "name": "Tiby Wang",
             "role": "Creator"
         }
     ],
     "support": {
-        "issues": "https://github.com/zerosonesfun/flarum-bbcode-template/issues",
-        "source": "https://github.com/zerosonesfun/flarum-bbcode-template",
+        "issues": "https://github.com/beautylix/flarum-bbcode-custom/issues",
+        "source": "https://github.com/beautylix/flarum-bbcode-custom",
         "forum": "https://discuss.flarum.org"
     },
-    "homepage": "https://www.wilcosky.com",
-    "funding": [
-        {
-            "type": "website",
-            "url": "https://www.wilcosky.com"
-        }
-    ],
+
     "require": {
-        "flarum/core": "^0.1.0-beta.16"
+        "flarum/core": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "ZerosOnesFun\\ExtensionName\\": "src/"
+            "beautylix\\flarum-bbcode-custom\\": "src/"
         }
     },
     "extra": {

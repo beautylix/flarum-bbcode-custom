@@ -12,15 +12,24 @@ use Flarum\Frontend\Document;
 use s9e\TextFormatter\Configurator;
 
 return [
-    (new Extend\Frontend('forum'))
-        ->content(function (Document $document) {
-            $document->head[] = '<link rel="stylesheet" type="text/css" href="/assets/extensions/YOURUSERNAME-nameofextension/styles.css">';
-        }),
+
+/*
+ *   (new Extend\Frontend('forum'))
+ *       ->content(function (Document $document) {
+ *           $document->head[] = '<link rel="stylesheet" type="text/css" href="/assets/extensions/YOURUSERNAME-nameofextension/styles.css">';
+ *       }),
+ */
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBCodes->addCustom(
-                '[bbcode="{TEXT1}"]{TEXT2}[/bbcode]',
-                '<span class="{TEXT1}">{TEXT2}</span>'
+                '[sup]{TEXT}[/sup]',
+                '<sup>{TEXT}</sup>'
             );
+
+            $config->BBCodes->addCustom(
+                '[sub]{TEXT}[/sub]',
+                '<sub>{TEXT}</sub>'
+            );			
+			
         })
 ];

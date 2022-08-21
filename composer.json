@@ -29,7 +29,7 @@
             "title": "BBcode Custom",
             "category": "feature",
             "icon": {
-                "name": "fas fa-dribbble",
+                "name": "fab fa-dribbble",
                 "backgroundColor": "#a0e5b5",
                 "color": "#000"
             }

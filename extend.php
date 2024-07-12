@@ -33,12 +33,12 @@ return [
 
             $config->BBCodes->addCustom(
                 '[video]{TEXT}[/video]',
-                '<video>src="{TEXT}" controls</video>'
+                '<video src="TEXT" controls></video>'
             );	
 			
             $config->BBCodes->addCustom(
                 '[audio]{TEXT}[/audio]',
-                '<audio>src="{TEXT}" controls</audio>'
+                '<audio src="TEXT" controls></audio>'
             );				
 
 

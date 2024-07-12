@@ -10,6 +10,6 @@
 > 
 > [sub]text[/sub]
 > 
-> [video]text[/video]
+> [video]URL[/video]
 >
-> [audio]text[/audio]
+> [audio]URL[/audio]

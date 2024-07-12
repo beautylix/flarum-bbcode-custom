@@ -1,10 +1,10 @@
 # Flarum BBCode Custom
 
-#Installation
+## Installation
 
 >composer require beautylix/flarum-bbcode-custom
 
-#How to use
+## How to use
 
 > [sup]text[/sup]
 > 

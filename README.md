@@ -9,3 +9,7 @@
 > [sup]text[/sup]
 > 
 > [sub]text[/sub]
+> 
+> [video]text[/video]
+>
+> [audio]text[/audio]

@@ -29,7 +29,20 @@ return [
             $config->BBCodes->addCustom(
                 '[sub]{TEXT}[/sub]',
                 '<sub>{TEXT}</sub>'
-            );			
+            );		
+
+            $config->BBCodes->addCustom(
+                '[video]{TEXT}[/video]',
+                '<video>src="{TEXT}" controls</video>'
+            );	
+			
+            $config->BBCodes->addCustom(
+                '[audio]{TEXT}[/audio]',
+                '<audio>src="{TEXT}" controls</audio>'
+            );				
+
+
+			
 			
         })
 ];

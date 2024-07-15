@@ -11,4 +11,4 @@
 > [audio]URL[/audio]
 
 
-> In markdown, 10<sup>3</sup> = 10^3^, CO<sub>2</sub> = CO~2~
+> `In markdown, 10<sup>3</sup> = 10^3^, CO<sub>2</sub> = CO~2~`

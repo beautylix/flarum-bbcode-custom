@@ -22,16 +22,6 @@ return [
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBCodes->addCustom(
-                '[sup]{TEXT}[/sup]',
-                '<sup>{TEXT}</sup>'
-            );
-
-            $config->BBCodes->addCustom(
-                '[sub]{TEXT}[/sub]',
-                '<sub>{TEXT}</sub>'
-            );		
-
-            $config->BBCodes->addCustom(
                 '[video]{URL}[/video]',
                 '<video controls><source src="{URL}" /></video>'
             );	

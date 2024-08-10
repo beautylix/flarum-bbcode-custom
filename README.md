@@ -10,7 +10,7 @@
 >
 > [audio]URL[/audio]
 
-> In markdown, superscript and subscript can use markdown as well, please view the following examples.
+> In markdown, superscript and subscript can be written as follows.
 
 ```
 x^2

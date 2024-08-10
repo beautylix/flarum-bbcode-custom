@@ -10,5 +10,14 @@
 >
 > [audio]URL[/audio]
 
+> In markdown, superscript and subscript can use markdown as well, please view the following examples.
 
-> `In markdown, 10<sup>3</sup> = 10^3^, CO<sub>2</sub> = CO~2~`
+```
+x^2
+x^2^
+x^(n - 1)
+x^(n^2)
+x^(n^(2))
+H~2~O
+H~(2)O
+```
